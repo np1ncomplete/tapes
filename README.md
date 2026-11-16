@@ -1,2 +1,2 @@
 © 2026 Shiyi (Yvette) Chen. All songs, lyrics, sheet music, arrangements, and album covers in this repository are licensed under CC BY-NC-SA 4.0. Please credit me with a link to this repo. 
-For commercial use (streaming monetization, paid performances, sync, etc.), contact me for permission through `syeeeecinthewoods at gmail dot come`.
+For commercial use (streaming monetization, paid performances, sync, etc.), contact me for permission through `syeeeecinthewoods at gmail dot com`.
