@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>鱼问草 · Shiyi (Yvette) Chen / np1ncomplete</title>
+<style>
+  :root {
+    --ink: #1a1a1a;
+    --dim: #8a8a8a;
+    --rule: #e4e4e4;
+    --bg: #fbfbf9;
+    --accent: #b0412e;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink: #e8e8e4; --dim: #7c7c78; --rule: #2a2a2a; --bg: #121212; --accent: #e0745f; }
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    background-image:
+      linear-gradient(var(--rule) 1px, transparent 1px),
+      linear-gradient(90deg, var(--rule) 1px, transparent 1px);
+    background-size: 32px 32px;
+    color: var(--ink);
+    font-family: "Songti SC", "Noto Serif SC", "STSong", serif;
+    line-height: 2;
+    padding: 12vh 6vw;
+  }
+  main {
+    max-width: 560px;
+    margin: 0 auto;
+    background: var(--bg);
+    padding: 48px 40px;
+    border: 1px solid var(--rule);
+  }
+  .mono {
+    font-family: "SF Mono", "JetBrains Mono", "Menlo", "Consolas", monospace;
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    color: var(--dim);
+  }
+  header { margin-bottom: 56px; }
+  h1 {
+    font-weight: 400;
+    font-size: 40px;
+    letter-spacing: 0.3em;
+    line-height: 1.3;
+  }
+  h1 .sub { color: var(--accent); font-style: italic; font-family: "Times New Roman", serif; font-size: 22px; letter-spacing: 0; margin-left: 4px; }
+  .meta { margin-top: 12px; display: flex; justify-content: space-between; }
+  .epigraph {
+    font-family: "Times New Roman", "Cormorant Garamond", serif;
+    font-style: italic;
+    font-size: 15px;
+    line-height: 1.7;
+    color: var(--dim);
+    border-left: 1px solid var(--accent);
+    padding-left: 16px;
+    margin-bottom: 56px;
+  }
+  section {
+    display: grid;
+    grid-template-columns: 72px 1fr;
+    gap: 0 16px;
+    margin-bottom: 40px;
+  }
+  section .label { padding-top: 6px; }
+  section .label b { display: block; color: var(--ink); font-weight: 400; font-size: 13px; }
+  section p { font-size: 17px; }
+  section.chorus p { color: var(--ink); }
+  section.chorus .label b { color: var(--accent); }
+  .sym { color: var(--accent); font-family: "Times New Roman", serif; font-style: italic; }
+  hr {
+    border: none;
+    border-top: 1px dashed var(--rule);
+    margin: 48px 0;
+    position: relative;
+  }
+  hr::after {
+    content: "t → −t";
+    position: absolute; top: -9px; left: 50%; transform: translateX(-50%);
+    background: var(--bg); padding: 0 10px;
+    font-family: "Times New Roman", serif; font-style: italic; font-size: 14px; color: var(--dim);
+  }
+  footer { margin-top: 64px; border-top: 1px solid var(--rule); padding-top: 16px; line-height: 1.8; }
+  footer a { color: var(--dim); }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>鱼问草<span class="sub">f(t)</span></h1>
+    <div class="meta mono"><span>SHIYI (YVETTE) CHEN</span><span>∀t ∈ ℝ</span></div>
+  </header>
+
+  <div class="epigraph">Autrefois, le temps était la clé de tout, car à cette époque, le temps avait encore un sens.</div>
+
+  <section>
+    <div class="label mono"><b>§ 1.1</b>verse<br>t → +∞</div>
+    <p>很久以后<br>有一座村落<br>你问<br>它叫什么</p>
+  </section>
+  <section>
+    <div class="label mono"><b>§ 1.2</b>verse</div>
+    <p>在村落中<br>有个小人国<br>它们<br>不叫什么</p>
+  </section>
+  <section>
+    <div class="label mono"><b>§ 1.3</b>pre-chorus<br>¬A ∧ ¬B</div>
+    <p>不是迷宫 不问西东<br>不是雨林 不知天明<br>不愿想起 也回不去<br>他乡故里</p>
+  </section>
+  <section class="chorus">
+    <div class="label mono"><b>§ 1.4</b>chorus<br>∃x ?</div>
+    <p>黑夜 闪烁<br>你说它们还只是小孩<br>时间 沉默<br>你是否还记得谁存在</p>
+  </section>
+
+  <hr>
+
+  <section>
+    <div class="label mono"><b>§ 2.1</b>verse<br>t → −∞</div>
+    <p>很久以前<br>有片蓝蓝的天<br>你问<br>它有多大</p>
+  </section>
+  <section>
+    <div class="label mono"><b>§ 2.2</b>verse</div>
+    <p>在天空下<br>有几朵红花<br>它们<br>才刚发芽</p>
+  </section>
+  <section>
+    <div class="label mono"><b>§ 2.3</b>pre-chorus<br>¬A ∧ ¬B</div>
+    <p>不是自己 不是蚂蚁<br>不是神明 不是尘埃<br>你的理想 随着太阳<br>一起流浪</p>
+  </section>
+  <section class="chorus">
+    <div class="label mono"><b>§ 2.4</b>chorus<br>∃x ?</div>
+    <p>时间 闪烁<br>它们已经不再是小孩<br>黑夜 沉默<br>你是否还记得你存在</p>
+  </section>
+
+  <footer class="mono">
+    © 2026 Shiyi (Yvette) Chen · 鱼问草<br>
+    Licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> · Credit required · No commercial use without permission
+  </footer>
+</main>
+</body>
+</html>
